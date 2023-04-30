@@ -55,3 +55,6 @@ For each graph embeddings generated, change save text at the bottom of ```train.
 
 Open ```trainer.py``` and run through intstructions
 
+# Contributions:
+
+Daniel Gaidar
