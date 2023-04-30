@@ -25,5 +25,29 @@ The features generated will be based off of a resnet34 unsupervised feature extr
             resize_size=224
         )
 ```
-Change model name where stated above, do the same for line 108. (WARNING: doing so also requires changing models down the line for generating graph embeddings.
+Change model name where stated above, do the same for line 108. (WARNING: doing so also requires changing models down the line for generating graph embeddings.) 
+
+# Generating Graph Embeddings:
+
+Once appropriate feature extraction is fulfilled and graph embeddings are to be generated the following must be done: 
+
+```
+python train.py --cg_path \<PATH TO CELL GRAPH>\cell_graphs\ --tg_path <PATH TO TISSUE GRAPH>\tissue_graphs\ --assign_mat_path <PATH TO ASSIGNMENT MATRICES\assignment_matrices\  --config_fpath .\config\bracs_<MODEL OF CHOICE>_7_classes_pna.yml
+```
+Replace model of choice with either: 'hact', 'tggnn', or 'cggnn'
+
+For each graph embeddings generated, change save text at the bottom of ```train.py``` accordingly:
+
+```
+    x = np.array(x)
+    print(x)
+    np.savetxt('<CHANGE NAME FOR X VALUES>.txt',x)
+    np.savetxt('<CHANGE NAME FOR Y VALUES.txt',np.array(y))
+````
+ 
+ 
+# Training via Light GBM:
+
+Open ```trainer.py``` and run through intstructions
+
 
