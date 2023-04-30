@@ -42,7 +42,7 @@ For each graph embeddings generated, change save text at the bottom of ```train.
     x = np.array(x)
     print(x)
     np.savetxt('<CHANGE NAME FOR X VALUES>.txt',x)
-    np.savetxt('<CHANGE NAME FOR Y VALUES.txt',np.array(y))
+    np.savetxt('<CHANGE NAME FOR Y VALUES>.txt',np.array(y))
 ````
  
  
