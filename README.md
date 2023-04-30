@@ -218,7 +218,7 @@ weighted avg       0.58      0.58      0.58        31
 
 ```
 
-InceptionV3 Results: 
+# InceptionV3 Results: 
 
 ```
  ---------------- HACT RESULTS ---------------- 
