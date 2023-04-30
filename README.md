@@ -1,4 +1,4 @@
-# BACH-GCN
+# BACH-GCN:
 
 Final Project for CSCI3397 Biomedical Image Analysis
 
@@ -54,5 +54,22 @@ For each graph embeddings generated, change save text at the bottom of ```train.
 # Training via Light GBM:
 
 Open ```trainer.py``` and run through intstructions
+
+References:
+
+@inproceedings{pati2021,
+    title = "Hierarchical Graph Representations in Digital Pathology",
+    author = "Pushpak Pati, Guillaume Jaume, Antonio Foncubierta, Florinda Feroce, Anna Maria Anniciello, Giosuè Scognamiglio, Nadia Brancati, Maryse Fiche, Estelle Dubruc, Daniel Riccio, Maurizio Di Bonito, Giuseppe De Pietro, Gerardo Botti, Jean-Philippe Thiran, Maria Frucci, Orcun Goksel, Maria Gabrani",
+    booktitle = "arXiv",
+    url = "https://arxiv.org/abs/2102.11057",
+    year = "2021"
+} 
+
+@article{rakhlin2018deep,
+  title={Deep Convolutional Neural Networks for Breast Cancer Histology Image Analysis},
+  author={Rakhlin, Alexander and Shvets, Alexey and Iglovikov, Vladimir and Kalinin, Alexandr A},
+  journal={arXiv preprint arXiv:1802.00752},
+  year={2018}
+}
 
 
