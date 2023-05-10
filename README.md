@@ -2,7 +2,7 @@
 
 Final Project for CSCI3397 Biomedical Image Analysis
 
-For this project I proposed a novel solution the 2019 BACH Challenge via the usage of pretrained hact-net -- a neural network model which combines both cell and tissue based features into the same graph embeddings -- cell and tissue graph NN. Random Image  After generating graph embeddings the embeddings were then trained via Light GBM, SVM and Logistic Regression.
+For this project I proposed a novel solution the 2019 BACH Challenge via the usage of pretrained hact-net -- a neural network model which combines both cell and tissue based features into the same graph embeddings -- cell and tissue graph NN. Random image generation was done to compensate for the small dataset size.  After generating graph embeddings the embeddings were then trained via Light GBM, SVM and Logistic Regression.
 
 
 # Requirements:
