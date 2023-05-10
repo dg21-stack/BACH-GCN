@@ -10,6 +10,8 @@ To further broaden my scope of research, I also used two different architectures
 # Requirements:
 
 installation via requirements.txt
+# Random Image Augmentations:
+Open ```` Augment.ipynb ```` and run the code found within.
 
 # Generating Feature Extractions:
 
